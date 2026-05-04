@@ -17,6 +17,7 @@
 		4508CF122F8C661A007D5DD0 /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4508CF112F8C661A007D5DD0 /* EditTaskView.swift */; };
 		4508CF202F934206007D5DD0 /* TaskSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4508CF1F2F934206007D5DD0 /* TaskSource.swift */; };
 		4508CF222F93420B007D5DD0 /* TaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4508CF212F93420B007D5DD0 /* TaskCategory.swift */; };
+		450DB6162FA8328A004D1E29 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 450DB6152FA8328A004D1E29 /* .gitignore */; };
 		459ABF4E2FA59DBF00017826 /* AliceCentralHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459ABF4D2FA59DBF00017826 /* AliceCentralHubApp.swift */; };
 		459ABF502FA59DFD00017826 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459ABF4F2FA59DFD00017826 /* HomeView.swift */; };
 		459ABFA52FA59F2900017826 /* ScheduleEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459ABF972FA59F2900017826 /* ScheduleEvent.swift */; };
@@ -28,7 +29,6 @@
 		459ABFAB2FA59F2900017826 /* ScheduleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459ABF9E2FA59F2900017826 /* ScheduleProvider.swift */; };
 		459ABFAC2FA59F2900017826 /* WorkScheduleSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459ABFA02FA59F2900017826 /* WorkScheduleSectionView.swift */; };
 		459ABFAD2FA59F2900017826 /* ScheduleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459ABFA22FA59F2900017826 /* ScheduleStore.swift */; };
-		45B40CF82FA81D1B00965AAB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 45B40CF72FA81D1700965AAB /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +59,7 @@
 		4508CF112F8C661A007D5DD0 /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
 		4508CF1F2F934206007D5DD0 /* TaskSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSource.swift; sourceTree = "<group>"; };
 		4508CF212F93420B007D5DD0 /* TaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCategory.swift; sourceTree = "<group>"; };
+		450DB6152FA8328A004D1E29 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		459ABF4D2FA59DBF00017826 /* AliceCentralHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliceCentralHubApp.swift; sourceTree = "<group>"; };
 		459ABF4F2FA59DFD00017826 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		459ABF972FA59F2900017826 /* ScheduleEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleEvent.swift; sourceTree = "<group>"; };
@@ -70,7 +71,6 @@
 		459ABF9E2FA59F2900017826 /* ScheduleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleProvider.swift; sourceTree = "<group>"; };
 		459ABFA02FA59F2900017826 /* WorkScheduleSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkScheduleSectionView.swift; sourceTree = "<group>"; };
 		459ABFA22FA59F2900017826 /* ScheduleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleStore.swift; sourceTree = "<group>"; };
-		45B40CF72FA81D1700965AAB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		98AA08B62F8B0E6D00AF5842 /* AliceCentralHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliceCentralHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98AA08C32F8B0E7000AF5842 /* AliceCentralHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliceCentralHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98AA08CD2F8B0E7000AF5842 /* AliceCentralHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliceCentralHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -397,7 +397,7 @@
 				459ABFAF2FA8063600017826 /* Core */,
 				459ABFB02FA8063600017826 /* Features */,
 				459ABFB12FA8063600017826 /* Shared */,
-				45B40CF72FA81D1700965AAB /* .gitignore */,
+				450DB6152FA8328A004D1E29 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -528,6 +528,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				450DB6162FA8328A004D1E29 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,7 +536,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45B40CF82FA81D1B00965AAB /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
