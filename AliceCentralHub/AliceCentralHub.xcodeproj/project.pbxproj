@@ -18,6 +18,27 @@
 		4508CF202F934206007D5DD0 /* TaskSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4508CF1F2F934206007D5DD0 /* TaskSource.swift */; };
 		4508CF222F93420B007D5DD0 /* TaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4508CF212F93420B007D5DD0 /* TaskCategory.swift */; };
 		450DB6162FA8328A004D1E29 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 450DB6152FA8328A004D1E29 /* .gitignore */; };
+		450DB6182FA847FF004D1E29 /* KalshiAutomationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB6172FA847FF004D1E29 /* KalshiAutomationMode.swift */; };
+		450DB61A2FA847FF004D1E29 /* KalshiMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB6192FA847FF004D1E29 /* KalshiMarket.swift */; };
+		450DB61C2FA847FF004D1E29 /* KalshiTradeIdea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB61B2FA847FF004D1E29 /* KalshiTradeIdea.swift */; };
+		450DB61E2FA847FF004D1E29 /* KalshiPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB61D2FA847FF004D1E29 /* KalshiPosition.swift */; };
+		450DB6202FA8480F004D1E29 /* KalshiPaperTrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB61F2FA8480F004D1E29 /* KalshiPaperTrade.swift */; };
+		450DB6222FA8480F004D1E29 /* KalshiAgentDecision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB6212FA8480F004D1E29 /* KalshiAgentDecision.swift */; };
+		450DB6242FA8480F004D1E29 /* KalshiAgentRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB6232FA8480F004D1E29 /* KalshiAgentRun.swift */; };
+		450DB6262FA8480F004D1E29 /* KalshiAgentActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB6252FA8480F004D1E29 /* KalshiAgentActivity.swift */; };
+		450DB6282FA8480F004D1E29 /* KalshiRiskPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB6272FA8480F004D1E29 /* KalshiRiskPolicy.swift */; };
+		450DB62A2FA84865004D1E29 /* KalshiMarketDataProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB6292FA84865004D1E29 /* KalshiMarketDataProviding.swift */; };
+		450DB62C2FA84865004D1E29 /* KalshiRiskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB62B2FA84865004D1E29 /* KalshiRiskManager.swift */; };
+		450DB62E2FA84865004D1E29 /* MockKalshiMarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB62D2FA84865004D1E29 /* MockKalshiMarketDataService.swift */; };
+		450DB6302FA84866004D1E29 /* KalshiDashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB62F2FA84866004D1E29 /* KalshiDashboardViewModel.swift */; };
+		450DB6322FA86187004D1E29 /* KalshiAgentStatusCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB6312FA86187004D1E29 /* KalshiAgentStatusCardView.swift */; };
+		450DB6342FA86187004D1E29 /* KalshiMarketCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB6332FA86187004D1E29 /* KalshiMarketCardView.swift */; };
+		450DB6362FA86187004D1E29 /* KalshiTradeIdeaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB6352FA86187004D1E29 /* KalshiTradeIdeaCardView.swift */; };
+		450DB6382FA86187004D1E29 /* KalshiPositionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB6372FA86187004D1E29 /* KalshiPositionCardView.swift */; };
+		450DB63A2FA861A7004D1E29 /* KalshiAgentDecisionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB6392FA861A7004D1E29 /* KalshiAgentDecisionCardView.swift */; };
+		450DB63C2FA861A7004D1E29 /* KalshiAgentActivityLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB63B2FA861A7004D1E29 /* KalshiAgentActivityLogView.swift */; };
+		450DB63E2FA861A7004D1E29 /* KalshiRiskPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB63D2FA861A7004D1E29 /* KalshiRiskPolicyView.swift */; };
+		450DB6402FA861A7004D1E29 /* KalshiDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DB63F2FA861A7004D1E29 /* KalshiDashboardView.swift */; };
 		459ABF4E2FA59DBF00017826 /* AliceCentralHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459ABF4D2FA59DBF00017826 /* AliceCentralHubApp.swift */; };
 		459ABF502FA59DFD00017826 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459ABF4F2FA59DFD00017826 /* HomeView.swift */; };
 		459ABFA52FA59F2900017826 /* ScheduleEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459ABF972FA59F2900017826 /* ScheduleEvent.swift */; };
@@ -60,6 +81,27 @@
 		4508CF1F2F934206007D5DD0 /* TaskSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSource.swift; sourceTree = "<group>"; };
 		4508CF212F93420B007D5DD0 /* TaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCategory.swift; sourceTree = "<group>"; };
 		450DB6152FA8328A004D1E29 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		450DB6172FA847FF004D1E29 /* KalshiAutomationMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiAutomationMode.swift; sourceTree = "<group>"; };
+		450DB6192FA847FF004D1E29 /* KalshiMarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiMarket.swift; sourceTree = "<group>"; };
+		450DB61B2FA847FF004D1E29 /* KalshiTradeIdea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiTradeIdea.swift; sourceTree = "<group>"; };
+		450DB61D2FA847FF004D1E29 /* KalshiPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiPosition.swift; sourceTree = "<group>"; };
+		450DB61F2FA8480F004D1E29 /* KalshiPaperTrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiPaperTrade.swift; sourceTree = "<group>"; };
+		450DB6212FA8480F004D1E29 /* KalshiAgentDecision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiAgentDecision.swift; sourceTree = "<group>"; };
+		450DB6232FA8480F004D1E29 /* KalshiAgentRun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiAgentRun.swift; sourceTree = "<group>"; };
+		450DB6252FA8480F004D1E29 /* KalshiAgentActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiAgentActivity.swift; sourceTree = "<group>"; };
+		450DB6272FA8480F004D1E29 /* KalshiRiskPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiRiskPolicy.swift; sourceTree = "<group>"; };
+		450DB6292FA84865004D1E29 /* KalshiMarketDataProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiMarketDataProviding.swift; sourceTree = "<group>"; };
+		450DB62B2FA84865004D1E29 /* KalshiRiskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiRiskManager.swift; sourceTree = "<group>"; };
+		450DB62D2FA84865004D1E29 /* MockKalshiMarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockKalshiMarketDataService.swift; sourceTree = "<group>"; };
+		450DB62F2FA84866004D1E29 /* KalshiDashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiDashboardViewModel.swift; sourceTree = "<group>"; };
+		450DB6312FA86187004D1E29 /* KalshiAgentStatusCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiAgentStatusCardView.swift; sourceTree = "<group>"; };
+		450DB6332FA86187004D1E29 /* KalshiMarketCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiMarketCardView.swift; sourceTree = "<group>"; };
+		450DB6352FA86187004D1E29 /* KalshiTradeIdeaCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiTradeIdeaCardView.swift; sourceTree = "<group>"; };
+		450DB6372FA86187004D1E29 /* KalshiPositionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiPositionCardView.swift; sourceTree = "<group>"; };
+		450DB6392FA861A7004D1E29 /* KalshiAgentDecisionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiAgentDecisionCardView.swift; sourceTree = "<group>"; };
+		450DB63B2FA861A7004D1E29 /* KalshiAgentActivityLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiAgentActivityLogView.swift; sourceTree = "<group>"; };
+		450DB63D2FA861A7004D1E29 /* KalshiRiskPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiRiskPolicyView.swift; sourceTree = "<group>"; };
+		450DB63F2FA861A7004D1E29 /* KalshiDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalshiDashboardView.swift; sourceTree = "<group>"; };
 		459ABF4D2FA59DBF00017826 /* AliceCentralHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliceCentralHubApp.swift; sourceTree = "<group>"; };
 		459ABF4F2FA59DFD00017826 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		459ABF972FA59F2900017826 /* ScheduleEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleEvent.swift; sourceTree = "<group>"; };
@@ -138,7 +180,7 @@
 			children = (
 				459ABFB22FA8063600017826 /* Home */,
 				459ABFB32FA8063600017826 /* Tasks */,
-				459ABFB42FA8063600017826 /* KalshiTrader */,
+				459ABFB42FA8063600017826 /* KalshiAgent */,
 				459ABFB52FA8063600017826 /* MarketAnalyst */,
 			);
 			path = Features;
@@ -176,7 +218,7 @@
 			path = Tasks;
 			sourceTree = "<group>";
 		};
-		459ABFB42FA8063600017826 /* KalshiTrader */ = {
+		459ABFB42FA8063600017826 /* KalshiAgent */ = {
 			isa = PBXGroup;
 			children = (
 				459ABFC22FA8064600017826 /* Views */,
@@ -185,7 +227,7 @@
 				459ABFC52FA8064600017826 /* Services */,
 				459ABFC62FA8064600017826 /* DTOs */,
 			);
-			path = KalshiTrader;
+			path = KalshiAgent;
 			sourceTree = "<group>";
 		};
 		459ABFB52FA8063600017826 /* MarketAnalyst */ = {
@@ -306,6 +348,14 @@
 		459ABFC22FA8064600017826 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				450DB6312FA86187004D1E29 /* KalshiAgentStatusCardView.swift */,
+				450DB6332FA86187004D1E29 /* KalshiMarketCardView.swift */,
+				450DB6352FA86187004D1E29 /* KalshiTradeIdeaCardView.swift */,
+				450DB6372FA86187004D1E29 /* KalshiPositionCardView.swift */,
+				450DB6392FA861A7004D1E29 /* KalshiAgentDecisionCardView.swift */,
+				450DB63B2FA861A7004D1E29 /* KalshiAgentActivityLogView.swift */,
+				450DB63D2FA861A7004D1E29 /* KalshiRiskPolicyView.swift */,
+				450DB63F2FA861A7004D1E29 /* KalshiDashboardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -313,6 +363,7 @@
 		459ABFC32FA8064600017826 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				450DB62F2FA84866004D1E29 /* KalshiDashboardViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -320,6 +371,15 @@
 		459ABFC42FA8064600017826 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				450DB6172FA847FF004D1E29 /* KalshiAutomationMode.swift */,
+				450DB6192FA847FF004D1E29 /* KalshiMarket.swift */,
+				450DB61B2FA847FF004D1E29 /* KalshiTradeIdea.swift */,
+				450DB61D2FA847FF004D1E29 /* KalshiPosition.swift */,
+				450DB61F2FA8480F004D1E29 /* KalshiPaperTrade.swift */,
+				450DB6212FA8480F004D1E29 /* KalshiAgentDecision.swift */,
+				450DB6232FA8480F004D1E29 /* KalshiAgentRun.swift */,
+				450DB6252FA8480F004D1E29 /* KalshiAgentActivity.swift */,
+				450DB6272FA8480F004D1E29 /* KalshiRiskPolicy.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -327,6 +387,9 @@
 		459ABFC52FA8064600017826 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				450DB6292FA84865004D1E29 /* KalshiMarketDataProviding.swift */,
+				450DB62B2FA84865004D1E29 /* KalshiRiskManager.swift */,
+				450DB62D2FA84865004D1E29 /* MockKalshiMarketDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -554,26 +617,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				459ABFA82FA59F2900017826 /* FallbackScheduleProvider.swift in Sources */,
+				450DB63E2FA861A7004D1E29 /* KalshiRiskPolicyView.swift in Sources */,
 				459ABFAB2FA59F2900017826 /* ScheduleProvider.swift in Sources */,
+				450DB6342FA86187004D1E29 /* KalshiMarketCardView.swift in Sources */,
+				450DB62C2FA84865004D1E29 /* KalshiRiskManager.swift in Sources */,
+				450DB62A2FA84865004D1E29 /* KalshiMarketDataProviding.swift in Sources */,
+				450DB6282FA8480F004D1E29 /* KalshiRiskPolicy.swift in Sources */,
 				4508CF072F8C4D08007D5DD0 /* TaskListView.swift in Sources */,
 				4508CF202F934206007D5DD0 /* TaskSource.swift in Sources */,
+				450DB6262FA8480F004D1E29 /* KalshiAgentActivity.swift in Sources */,
 				459ABFAC2FA59F2900017826 /* WorkScheduleSectionView.swift in Sources */,
 				459ABFAA2FA59F2900017826 /* OutlookScheduleProvider.swift in Sources */,
 				4508CF092F8C4D89007D5DD0 /* TaskRowView.swift in Sources */,
 				4508CF0E2F8C4E84007D5DD0 /* AddTaskView.swift in Sources */,
 				4508CF222F93420B007D5DD0 /* TaskCategory.swift in Sources */,
 				4508CEFE2F8C4482007D5DD0 /* TaskItem.swift in Sources */,
+				450DB63A2FA861A7004D1E29 /* KalshiAgentDecisionCardView.swift in Sources */,
+				450DB63C2FA861A7004D1E29 /* KalshiAgentActivityLogView.swift in Sources */,
 				459ABFA92FA59F2900017826 /* MockScheduleProvider.swift in Sources */,
+				450DB6222FA8480F004D1E29 /* KalshiAgentDecision.swift in Sources */,
+				450DB6322FA86187004D1E29 /* KalshiAgentStatusCardView.swift in Sources */,
 				459ABF4E2FA59DBF00017826 /* AliceCentralHubApp.swift in Sources */,
 				459ABFAD2FA59F2900017826 /* ScheduleStore.swift in Sources */,
+				450DB6402FA861A7004D1E29 /* KalshiDashboardView.swift in Sources */,
 				459ABFA52FA59F2900017826 /* ScheduleEvent.swift in Sources */,
 				459ABFA62FA59F2900017826 /* ScheduleEventContext.swift in Sources */,
+				450DB6202FA8480F004D1E29 /* KalshiPaperTrade.swift in Sources */,
+				450DB61C2FA847FF004D1E29 /* KalshiTradeIdea.swift in Sources */,
+				450DB61E2FA847FF004D1E29 /* KalshiPosition.swift in Sources */,
+				450DB6242FA8480F004D1E29 /* KalshiAgentRun.swift in Sources */,
 				4508CF052F8C486F007D5DD0 /* TaskStore.swift in Sources */,
+				450DB6382FA86187004D1E29 /* KalshiPositionCardView.swift in Sources */,
+				450DB6362FA86187004D1E29 /* KalshiTradeIdeaCardView.swift in Sources */,
+				450DB61A2FA847FF004D1E29 /* KalshiMarket.swift in Sources */,
 				4508CF002F8C4760007D5DD0 /* TaskPriority.swift in Sources */,
 				459ABFA72FA59F2900017826 /* ScheduleEventSource.swift in Sources */,
+				450DB62E2FA84865004D1E29 /* MockKalshiMarketDataService.swift in Sources */,
 				459ABF502FA59DFD00017826 /* HomeView.swift in Sources */,
 				4508CF022F8C4813007D5DD0 /* TaskStatus.swift in Sources */,
+				450DB6302FA84866004D1E29 /* KalshiDashboardViewModel.swift in Sources */,
 				4508CF122F8C661A007D5DD0 /* EditTaskView.swift in Sources */,
+				450DB6182FA847FF004D1E29 /* KalshiAutomationMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

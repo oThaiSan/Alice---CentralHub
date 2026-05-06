@@ -11,13 +11,17 @@ final class ScheduleStore: ObservableObject {
 
     private let provider: any ScheduleProviding
 
-    init(provider: any ScheduleProviding = ScheduleStore.makeDefaultProvider()) {
+    init(provider: any ScheduleProviding) {
         self.provider = provider
 
         // Load immediately so Home can render schedule context without extra wiring.
         Task {
             await refreshUpcomingEvents()
         }
+    }
+
+    convenience init() {
+        self.init(provider: ScheduleStore.makeDefaultProvider())
     }
 
     func refreshUpcomingEvents(limit: Int = 6) async {
@@ -36,7 +40,7 @@ final class ScheduleStore: ObservableObject {
         isLoading = false
     }
 
-    nonisolated private static func makeDefaultProvider() -> any ScheduleProviding {
+    private static func makeDefaultProvider() -> any ScheduleProviding {
         FallbackScheduleProvider(
             primary: OutlookScheduleProvider(),
             fallback: MockScheduleProvider()
