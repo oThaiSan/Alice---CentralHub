@@ -59,6 +59,11 @@ private extension HomeView {
             .padding(24)
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
             .background(Color(nsColor: .windowBackgroundColor))
+
+        case .kalshiAgent:
+            KalshiDashboardView()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color(nsColor: .windowBackgroundColor))
         }
     }
     
@@ -413,6 +418,7 @@ enum SidebarItem: CaseIterable {
     case home
     case personalOps
     case marketingAnalyst
+    case kalshiAgent
 
     var title: String {
         switch self {
@@ -422,6 +428,8 @@ enum SidebarItem: CaseIterable {
             return "Personal Ops"
         case .marketingAnalyst:
             return "Marketing Analyst"
+        case .kalshiAgent:
+            return "Kalshi Agent"
         }
     }
 
@@ -433,6 +441,8 @@ enum SidebarItem: CaseIterable {
             return "checklist"
         case .marketingAnalyst:
             return "chart.line.uptrend.xyaxis"
+        case .kalshiAgent:
+            return "chart.line.uptrend.xyaxis.circle"
         }
     }
 }
